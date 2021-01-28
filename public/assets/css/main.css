@@ -2043,7 +2043,7 @@ input, select, textarea {
 			display: inline-block;
 			height: 1px;
 			margin-top: 1.5em;
-			width: 6em;
+			width: 20em;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -2709,7 +2709,7 @@ input, select, textarea {
 		height: 2.75em;
 		letter-spacing: 0.125em;
 		line-height: 2.75em;
-		padding: 0 2em;
+		padding: 0 1em;
 		text-align: center;
 		text-decoration: none;
 		text-indent: 0.125em;
@@ -2812,10 +2812,15 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+		/* Three ID */
+		#three{
+			padding: 2em 0em 2em 0em;
+			text-align: center;
+		}
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 6em 0 2em 0 ;
 	}
 
 		.main.style1 {
@@ -2913,16 +2918,18 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 9em 0 9em 0 ;
+		padding: 8em 0 8em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-image: url("images/background06.jpg");
+		/* url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
+		background-position: bottom left,						center center,					center center;
+		background-size: 							cover,							cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		text-shadow: white 0px 0px 2px;
 	}
 
 		#header a {
@@ -3109,13 +3116,14 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 3em 0 3em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-image: url("images/background06.jpg");
+		/* url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%); */
+		background-position: bottom left,						center center,					center center;
+		background-size:							cover,							cover;
 		text-align: center;
 	}
 
@@ -3508,5 +3516,4 @@ input, select, textarea {
 			#footer {
 				padding: 2em 1em 2em 1em ;
 			}
-
 	}
