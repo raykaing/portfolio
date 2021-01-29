@@ -8,6 +8,10 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + "/index.html")
 })
 
+app.get('*', function(req, res){
+  res.status(404).send("Page Not Found");
+});
+
 app.listen(port, () => {
   console.log(`Listening on http://localhost:${port}`)
 })
