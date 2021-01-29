@@ -1,17 +1,5 @@
-const express = require('express')
-const app = express()
-const port = 8080
+'use strict';
 
-app.use(express.static(__dirname + '/public'));
+const app = require('./express/server');
 
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + "/public/index.html")
-})
-
-app.get('*', function(req, res){
-  res.status(404).send("Page Not Found");
-});
-
-app.listen(port, () => {
-  console.log(`Listening on http://localhost:${port}`)
-})
+app.listen(3000, () => console.log('Local app listening on port 3000!'));
