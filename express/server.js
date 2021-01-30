@@ -9,7 +9,7 @@ app.use(express.static(__dirname + '/public'));
 
 const router = express.Router();
 router.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
+  res.sendFile('../' + __dirname + '../public/index.html');
 });
 router.get('/another', (req, res) => res.json({ route: req.originalUrl }));
 router.post('/', (req, res) => res.json({ postBody: req.body }));
