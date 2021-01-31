@@ -2814,13 +2814,13 @@ input, select, textarea {
 
 		/* Three ID */
 		#three{
-			padding: 2em 0em 2em 0em;
+			padding: 1em 0em 2em 0em;
 			text-align: center;
 		}
 /* Main */
 
 	.main {
-		padding: 6em 0 2em 0 ;
+		padding: 4em 0 4em 0 ;
 	}
 
 		.main.style1 {
@@ -3116,7 +3116,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 3em 0 3em 0 ;
+		padding: 1em 0 1em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
