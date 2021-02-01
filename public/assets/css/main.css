@@ -2814,7 +2814,7 @@ input, select, textarea {
 
 		/* Three ID */
 		#three{
-			padding: 1em 0em 2em 0em;
+			padding: 0em 0em 4em 0em;
 			text-align: center;
 		}
 /* Main */
@@ -3214,7 +3214,7 @@ input, select, textarea {
 		#footer .copyright {
 			font-size: 0.8em;
 			list-style: none;
-			margin: 2em 0 0 0;
+			margin: 0 0 0 0;
 			padding: 0;
 		}
 
